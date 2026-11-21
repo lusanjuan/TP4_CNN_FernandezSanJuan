@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pth
+*.pt
+*.ckpt
+venv/
+.venv/
+.DS_Store
+
+# Dataset and generated data
+data/
+datasets/
