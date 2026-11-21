@@ -25,7 +25,7 @@ En los TP anteriores trabajaron con texto (20 Newsgroups): TF-IDF + softmax y ML
 
 ## Qué hay que hacer
 1. **Ejecutar el notebook de punta a punta.** El cómputo está calibrado para ~15-20 minutos en CPU. El pipeline, los modelos, el entrenamiento con early stopping y los experimentos ya están implementados.
-2. Completar las celdas **✏️**, que son el trabajo del TP:
+2. Completar las celdas respondiendo preguntas sobre: 
    - **EDA:** observaciones sobre desbalance, resoluciones, color por clase y duplicados.
    - **Explicá el código convolucional:** explicar, verificando con las formas y parámetros de la tabla, `padding=kernel // 2`, `MaxPool2d`, el cálculo de parámetros de una convolución y de la capa `Linear`, `bias=not use_bn`, el duplicado de canales por bloque y el campo receptivo.
    - **Análisis 1 – De la MLP a la CNN:** parámetros, accuracy, brecha, tiempos y robustez a traslaciones.
